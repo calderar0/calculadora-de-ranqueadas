@@ -29,5 +29,5 @@ Ao final deve se exibir uma mensagem:
 "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
 ## Comentários finais
-Fiz utilizando HTML, CSS e JavaScript para tornar mais visual, porém mantive os códigos pedidos também onde deveria ser impresso no console
+Fiz utilizando HTML, CSS e JavaScript para tornar mais visual, porém mantive os códigos pedidos também onde deveria ser impresso no console <br>
 O código mostra tanto na tela do usuário quanto no console o seu saldo de vitórias e seu ranking.
