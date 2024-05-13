@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');</style>
+    <link rel="stylesheet" href="style.css">
+    <title>Rank Calc</title>
+</head>
+<body>
+
+    <div class="textos">
+        <h1>Calculadora de Ranqueadas</h1>
+        <p>Calcule já seu nível na ranqueada baseado nas suas vitórias e derrotas</p>
+    </div>
+
+    <div class="formulario">
+        <form>
+            <label for="vitorias">Vitórias:</label>
+            <br>
+            <input type="number" name="vitorias" id="vitorias" required>
+            <br>
+            <label for="derrotas">Derrotas:</label>
+            <br>
+            <input type="number" name="derrotas" id="derrotas" required>
+            <br>
+            <input class="botao" type="button" value="Calcular" onclick="calcular()">
+            <input class="botao" type="button" value="Resetar" onclick="location.reload()">
+        </form>
+    </div>
+
+    <div class="hidden" id="resultado">
+        <h2>Parabéns Herói</h2>
+        <p id="result">O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}** </p>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
