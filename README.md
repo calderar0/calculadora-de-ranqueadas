@@ -1,5 +1,5 @@
 # Calculadora de Ranqueadas
-Calculadora de Partidas Ranqueadas feita baseado no curso da DIO
+Calculadora de Partidas Ranqueadas feita baseado no curso da DIO <br>
 Instruções para entrega
  # 2️⃣ Calculadora de partidas Rankeadas
 **O Que deve ser utilizado**
